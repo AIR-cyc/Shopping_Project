@@ -1,0 +1,16 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.211.131
+    virtual-host: /leyou
+    username: leyou
+    password: leyou
+leyou:
+  sms:
+    accessKeyId: LTAI5tE9KLFfzArRyjZyGCnG # 你自己的accessKeyId
+    accessKeySecret: WswWYEqsL92RrXa8RpnFml7cnGnk3s # 你自己的AccessKeySecret
+    signName: 程耀醇的个人网站 # 签名名称
+    verifyCodeTemplate: SMS_270370268 # 模板名称
